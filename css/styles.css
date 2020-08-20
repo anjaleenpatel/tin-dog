@@ -159,10 +159,28 @@ p{
     font-weight: 600;
     text-decoration: none;
 }
-.sign-up-button {
+.sign-up {
   text-align: center;
 }
+#sign-up-button {
+  background-color: #8fc0a9;
+  color: #fff;
+}
+#sign-up-button.hover {
+  background-color: #68b0ab;
+}
 
+/* Sign up or Log in */
+.sign-up-buttons {
+    text-align: center;
+    padding: 5% 5% 5%;
+}
+
+.btn-outline {
+  color: #fff;
+  background-color: #68b0ab;
+  margin-bottom: 5%;
+}
 
 /* Testimonial Section */
 #testimonials {
