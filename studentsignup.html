@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles-studentsignup.css">
+  <link rel="stylesheet" href="css/styles-signup.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/2f604fb1cb.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -46,47 +46,55 @@
       </nav>
 
       <!-- Sign Up -->
-      <div class="signup-form">
-        <form action="/examples/actions/confirmation.php" method="post">
-          <h2>Create an Account</h2>
-          <p class="hint-text">Sign up with your social media account or email address</p>
-          <div class="social-btn text-center">
-            <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook"></i> Facebook</a>
-            <a href="#" class="btn btn-info btn-lg"><i class="fa fa-twitter"></i> Twitter</a>
-            <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>
+      <section id="log-in-form">
+        <div class="container login-container">
+          <div class="login-form-1">
+            <h3>Students</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your First Name *" value="" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Last Name *" value="" />
+              </div>
+              <div class="form-group">
+                <select class="custom-select" id="school-selection">
+                  <option selected>Choose School *</option>
+                  <option value="1">Vermont Elementary School</option>
+                  <option value="2">Jefferson Elementary School</option>
+                  <option value="3">32nd Street School</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your School Email *" value="" />
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Create a Password *" value="" />
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+              </div>
+              <div class="form-group">
+                <a type="submit" class="btnSubmit" href="login.html">Sign Up!</a>
+              </div>
+            </form>
           </div>
-          <div class="or-seperator"><b>or</b></div>
-          <div class="form-group">
-            <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
-          </div>
-        </form>
-        <div class="text-center">Already have an account? <a href="#">Login here</a></div>
+        </div>
+      </section>
 
 
-        <!-- Footer -->
+      <!-- Footer -->
 
-        <footer id="footer">
-          <i class="social-icon fab fa-facebook-f"></i>
-          <i class="social-icon fab fa-twitter"></i>
-          <i class="social-icon fab fa-instagram"></i>
-          <i class="social-icon fas fa-envelope"></i>
+      <footer id="footer">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
 
 
-          <p>© Copyright 2018 TinDog</p>
+        <p>© Copyright 2018 TinDog</p>
 
-        </footer>
+      </footer>
 
 
 </body>

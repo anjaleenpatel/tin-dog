@@ -1,0 +1,80 @@
+
+body {
+  background-color: #68b0ab;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #68b0ab;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Student Sign Up */
+#school-selection {
+  color: #8f8f8f;
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #8fc0a9;
+    text-align: center;
+}
+
+.login-form-1 .ForgetPwd{
+    color: #8fc0a9;
+    font-weight: 600;
+    text-decoration: none;
+}
+.form-group {
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
