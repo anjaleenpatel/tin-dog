@@ -32,6 +32,7 @@ h3 {
     margin-bottom: 5%;
 }
 .login-form-1{
+    border-radius: 15px 15px 15px;
     padding: 5%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     background-color: #fff;
@@ -41,7 +42,7 @@ h3 {
     color: #333;
 }
 .login-container form{
-    padding: 10%;
+    padding: 2% 5%;
 }
 .btnSubmit
 {
@@ -53,6 +54,7 @@ h3 {
     cursor: pointer;
 }
 .login-form-1 .btnSubmit{
+    padding-top: 0%
     font-weight: 600;
     color: #fff;
     background-color: #8fc0a9;

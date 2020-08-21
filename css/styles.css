@@ -114,6 +114,8 @@ p{
 .login-form-1{
     padding: 5%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .login-form-1 h3{
     text-align: center;
@@ -121,8 +123,10 @@ p{
 }
 .login-form-2{
     padding: 5%;
-    background: #8fc0a9;
+    background-color: #8fc0a9;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .login-form-2 h3{
     text-align: center;
@@ -133,11 +137,13 @@ p{
 }
 .btnSubmit
 {
+    margin-top: 30px;
     width: 50%;
     border-radius: 1rem;
     padding: 1.5%;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 .login-form-1 .btnSubmit{
     font-weight: 600;
@@ -146,7 +152,7 @@ p{
 }
 .login-form-2 .btnSubmit{
     font-weight: 600;
-    color: ##8fc0a9;
+    color: #8fc0a9;
     background-color: #fff;
 }
 .login-form-2 .ForgetPwd{
@@ -159,6 +165,9 @@ p{
     font-weight: 600;
     text-decoration: none;
 }
+.form-group {
+  text-align: center;
+}
 .sign-up {
   text-align: center;
 }
@@ -170,7 +179,6 @@ p{
   background-color: #68b0ab;
 }
 
-/* Student Sign Up */
 
 
 /* Sign up or Log in */
@@ -255,4 +263,18 @@ p{
     position: static;
     transform: rotate(0);
   }
+}
+@media (max-width: 767px){
+  .login-form-1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .login-form-2 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }  
 }
